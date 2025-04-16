@@ -5,7 +5,7 @@
 #### Run the node project  
 `node app.py`
 
-### Database Setup
+# Database Setup
 #### Create new file with name `.env`
 #### host the MySql Database at Docker container or somewhere else , i have the setteled it in xampp server.
 #### add the database configuration to `.env` file
