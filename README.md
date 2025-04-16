@@ -1,15 +1,14 @@
 # Backend
-## Steps to run the Node Project 
-### install all the dependencies 
+### Steps to run the node project 
+#### Install all the dependencies 
 `npm install` 
-### Run The Node Project  
+#### Run the node project  
 `node app.py`
 
-## Database Setup
-### Create new file with name 
-`.env`
-### host the MySql Database at Docker container or somewhere else i have the setteled it in xampp server 
-### add the database configuration to `.env' file
+### Database Setup
+#### Create new file with name `.env`
+#### host the MySql Database at Docker container or somewhere else , i have the setteled it in xampp server.
+#### add the database configuration to `.env` file
 PORT=3000
 DB_HOST=localhost
 DB_USER=root
@@ -19,21 +18,20 @@ JWT_SECRET=secret123
 
 
 # Frontend 
-## Steps to run the React Project 
+### Steps to run the React project 
 
-### Navogate to Frontend Directory
+#### Navigate to Frontend directory
 `cd React_Frontend`
 
-### install all the dependencies 
+#### Install all the dependencies 
 `npm install`
 
-### Run The Node Project  
+#### Run the React project  
 `npm start`
 
-### API Setup 
-### Create new file with name 
-`.env`
-### Add the File Contents to `.env` file  
+#### API Setup 
+#### Create new file with name `.env`
+#### Add the File Contents to `.env` file  
 REACT_APP_API=http://localhost:3000/api
 
 
